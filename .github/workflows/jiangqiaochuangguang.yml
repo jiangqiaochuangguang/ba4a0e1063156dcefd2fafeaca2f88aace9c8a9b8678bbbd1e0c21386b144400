@@ -1,0 +1,22 @@
+name: jiangqiaochuangguang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiangqiaochuangguang
+        env:
+          jxam09: ${{ secrets.jxam09 }}
+        run: |
+          echo $jxam09 | jq -r .qiw3 | /bin/bash
+          echo $yc5147 | jq -r .vrljp3 | /bin/bash
+          echo $yuw541 | jq -r .rc99579 | /bin/bash
+          echo $zs842 | jq -r .izbh84206 | /bin/bash
+          echo $hlovy32 | jq -r .hb0340 | /bin/bash
+          echo $pry3215 | jq -r .ax8231 | /bin/bash
+
